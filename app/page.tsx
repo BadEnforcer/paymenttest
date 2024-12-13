@@ -1,7 +1,7 @@
 "use client"
 
 import {GoogleAuthProvider, signInWithPopup} from "firebase/auth";
-import instances from "../firebase.js";
+import instances from "../firebase.ts";
 import axios from "axios";
 import {useRouter} from "next/navigation";
 
